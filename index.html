@@ -1,0 +1,210 @@
+<!-- Using the HTML table demo file in the code files folder as a template to start. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodevs</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0 20%;
+      }
+      ul, ol {
+        margin-left: 50px;
+      }
+      td {
+        padding: 0 15px;
+      }
+      .bi {
+        margin-left: 15px;
+      }
+      h2 {
+        padding-top: 20px;
+      }
+      hr {
+        border: none;
+        height: 5px;
+        background-color: rgb(140, 111, 158);
+      }
+      a:link {
+        color: rgb(74, 14, 131);
+        text-decoration: none;
+      }
+      a:hover {
+        color: rgb(184, 142, 209);
+        text-decoration: underline;
+      }
+      
+    </style>
+    <!-- Add Bootstrap CSS and Icons link tag-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <!-- Picked up the idea from 'Stack Overflow' to use a center element to align content in the middle of the page. -->
+  <body>
+    <center>
+      <header style="margin-bottom: 20px;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0px;">
+          <div class="container-fluid" style="background-color: rgb(239, 234, 242); padding: 0px 20px;">
+            <a class="navbar-brand" href="#"><h3>Rodevs</h3></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#ski">Skills</a>
+                <a class="nav-link" href="#edu">Eduction</a>
+                <a class="nav-link" href="#exp">Experience</a>
+                <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img
+                    src="image.jpg"
+                    alt="Passport size image of author - Rod Hanciles"
+                    height="250px"
+                    width="250px"
+                    style="border-radius: 50%;"
+                  />
+                </td>
+                <td>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td><h1 style="margin-bottom: 0px; color: rgb(74, 14, 131);">Rod Hanciles</h1></td>
+                        <td>
+                          <h6 class="bi bi-telephone">&nbsp; +44 07944 555 666</h6>
+                          <h6 class="bi bi-envelope">&nbsp; superod@outlook.com</h6>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><h3 style="margin-top: -10px; color: rgb(104, 114, 241);">Curriculum Vitae</h3></td>
+                        <td>
+                          <h6 class="bi bi-geo-alt">&nbsp; 8 Fredrick Street<br/>&nbsp; &nbsp; &nbsp; London SE0 1AZ</h6>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+    </center>
+    <!-- For some strange reason VS Code flags up styling from within the brackets of elements. Now sure why, but it didn't work from within the head element -->
+    <section>
+      <h2>Bio</h2>
+      <hr>
+      <p>
+        Right from a very young age I have had a passion for gadgets and
+        technology. So, a career in IT was an irresistible choice when the
+        opportunity presented itself. With an eye for detail, a mind highly
+        technical, full of curiosity; and a forte for problem-solving. The
+        key ingredients necessary for anyone aspiring to work in this field
+        were already innate in my case. This made it inevitable that I
+        interacted with people daily, and it instilled in me that natural
+        drive to help, solve their problems and put a smile on their faces.
+        So, whether it's Web Development, setting up a network
+        Infrastructure, or fixing a PC, the pleasure to satisfy the client,
+        is always mine.
+      </p>
+    </section>
+    <section>
+      <h2 id="ski">Skills</h2>
+      <hr>
+      <p>
+        Strangely, though it may seem, IT was not on my radar growing up.
+        When I was in high school, accounting was my main attraction and I
+        wanted to be a chartered accountant when I graduated. Then I got
+        introduced to computers and suddenly accounting and business studies
+        didn't seem that attractive anymore. Since then I have been able to
+        acquire the following skills
+      </p>
+      <ol>
+        <li>Maintain and build Computer Systems</li>
+        <li>Upgrade and retro-fit hardware components</li>
+        <li>Software install, optimisation</li>
+        <li>Diagnose and fix system errors</li>
+        <li>diagnose and repair hardware</li>
+        <li>Network infrastructure</li>
+        <li>WiFi networks and Hotspots</li>
+        <li>Data Recovery</li>
+      </ol>
+    </section>
+    <section>
+      <h2 id="edu">Eduction</h2>
+      <hr>
+      <ul>
+        <li>Diploma in Computer Electronics - City and Guilds</li>
+        <li>Network+ - CompTIA</li>
+        <li>CCNA - Cisco</li>
+        <li>MCSE Module - Microsoft</li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="exp">Experience</h2>
+      <hr>
+      <p>
+        Information Technology has been a significant part of my
+        professional life, and I have worked in the IT departments of
+        various institutions in both frontline and support roles. I am
+        currently working as an IT engineer at Ravit Solutions and have held
+        this position for about 10 years.
+      </p>
+    </section>
+  </main>
+  <footer style="padding-top: 20px; background-color: rgb(239, 234, 242);">
+    <center>
+      <table>
+        <tbody>
+          <tr>
+            <td><h6>Web Developer</h6></td>
+            <td><h6 style="text-align: center;">Rodevs</h6></td>
+            <td><h6>Fantastic Designs</h6></td>
+          </tr>
+          <tr>
+            <td><a href="#"><h6 style="text-align: center; margin-top: -10px;font-weight: bold;">Home</h6></a></td>
+            <td><p style="text-align: center;">&copy; 2024. All Rights Reserved</p></td>
+            <td><a target="_blank" href="https://www.linkedin.com/in/rodevs/"><h6 style="text-align: center; margin-top: -10px;font-weight: bold;">Linkedin</h6></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </footer>
+
+    <!-- Add Bootstrap JS script tag -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
