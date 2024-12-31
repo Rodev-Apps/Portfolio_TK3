@@ -1,0 +1,82 @@
+/* Transfer style information from HTML doc. Then use this CSS file to style and improve web page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+header {
+    margin-bottom: 20px;
+    }
+nav {
+    padding: 0px;
+    }   
+.container-fluid {
+    background-color: rgb(239, 234, 242);
+    padding: 0px 20px;
+    }
+main {
+    /* width: 60%; */
+    padding: 0 20%;
+    }
+#image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    }
+#title {
+    margin-bottom: 0px; 
+    color: rgb(74, 14, 131);
+    }
+#subTitle {
+    margin-top: -10px; 
+    color: rgb(104, 114, 241);
+}
+ul, ol {
+    margin-left: 50px;
+    }
+td {
+    padding: 0 15px;
+    }
+.bi {
+    margin-left: 15px;
+    }
+h2 {
+    padding-top: 20px;
+    }
+hr {
+    border: none;
+    height: 5px;
+    background-color: rgb(140, 111, 158);
+    }
+footer {
+    padding-top: 2em;
+    padding-bottom: 1em; 
+    background-color: rgb(239, 234, 242);
+    }
+#icon {
+    margin-left: 6.5em;
+    margin-right: 5em;
+    margin-bottom: 0.5em;
+    /* color: rgb(74, 14, 131); */
+    }
+/* #icon:hover {
+    color: rgb(184, 142, 209);
+    } */
+.footerTxt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+.footerLnk {
+    text-align: center; 
+    margin-top: -10px;
+    font-weight: bold;
+}
+a:link {
+    color: rgb(74, 14, 131);
+    text-decoration: none;
+    }
+a:hover {
+    color: rgb(184, 142, 209);
+    text-decoration: underline;
+    }
