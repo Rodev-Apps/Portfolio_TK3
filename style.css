@@ -18,7 +18,7 @@ main {
     /* width: 60%; */
     padding: 0 20%;
     }
-img {
+#image {
     height: 250px;
     width: 250px;
     border-radius: 50%;
@@ -49,10 +49,22 @@ hr {
     background-color: rgb(140, 111, 158);
     }
 footer {
-    padding-top: 20px; 
+    padding-top: 2em;
+    padding-bottom: 1em; 
     background-color: rgb(239, 234, 242);
     }
+#icon {
+    margin-left: 6.5em;
+    margin-right: 5em;
+    margin-bottom: 0.5em;
+    /* color: rgb(74, 14, 131); */
+    }
+/* #icon:hover {
+    color: rgb(184, 142, 209);
+    } */
 .footerTxt {
+    display: flex;
+    justify-content: center;
     text-align: center;
     }
 .footerLnk {

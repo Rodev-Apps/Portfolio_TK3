@@ -23,38 +23,55 @@
 
   <!-- Picked up the idea from 'Stack Overflow' to use a center element to align content in the middle of the page. -->
   <body>
-    <center>
-      <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div
+            class="collapse navbar-collapse d-flex justify-content-around"
+            id="navbarNavAltMarkup"
+          >
             <a class="navbar-brand" href="#"><h3>Rodevs</h3></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse d-flex justify-content-end"
-              id="navbarNavAltMarkup"
-            >
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#ski">Skills</a>
-                <a class="nav-link" href="#edu">Eduction</a>
-                <a class="nav-link" href="#exp">Experience</a>
-                <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
-              </div>
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#ski">Skills</a>
+              <a class="nav-link" href="#edu">Eduction</a>
+              <a class="nav-link" href="#exp">Experience</a>
+              <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+            </div>
+
+            <div class="navbar-nav">
+              <a
+                class="nav-link bi bi-github"
+                href="https://github.com/Rodev-Apps"
+              ></a>
+              <a
+                class="nav-link bi bi-twitter-x"
+                href="https://x.com/Rodevs23?mx=2"
+              ></a>
+              <a
+                class="nav-link bi bi-facebook"
+                href="https://www.facebook.com/profile.php?id=100095082984128"
+              ></a>
+              <a
+                class="nav-link bi bi-linkedin"
+                href="https://www.linkedin.com/in/rodevs/"
+              ></a>
             </div>
           </div>
-        </nav>
-      </header>
-    </center>
+        </div>
+      </nav>
+    </header>
 
     <main>
       <center>
@@ -66,6 +83,7 @@
                   <img
                     src="image.jpg"
                     alt="Passport size image of author - Rod Hanciles"
+                    id="image"
                   />
                 </td>
                 <td>
@@ -163,26 +181,35 @@
 
     <footer>
       <center>
-        <table>
-          <tbody>
-            <tr>
-              <td><h6>Web Developer</h6></td>
-              <td><h6 class="footerTxt">Rodevs</h6></td>
-              <td><h6>Fantastic Designs</h6></td>
-            </tr>
-            <tr>
-              <td>
-                <a href="#"><h6 class="footerLnk">Home</h6></a>
-              </td>
-              <td><p class="footerTxt">&copy; 2024. All Rights Reserved</p></td>
-              <td>
-                <a href="https://www.linkedin.com/in/rodevs/" target="_blank"
-                  ><h6 class="footerLnk">Linkedin</h6></a
-                >
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <div class="footerTxt">
+            <h6 class="footerTxt">Rodevs</h6>
+            <a href="#"
+              ><img
+                src="Home-1.png"
+                alt="Home icon"
+                id="icon"
+                height="25px"
+                class="footerTxt"
+            /></a>
+            <h6>Designs</h6>
+          </div>
+          <div>
+            <a class="bi bi-github" href="https://github.com/Rodev-Apps"></a>
+            <a class="bi bi-twitter-x" href="https://x.com/Rodevs23?mx=2"></a>
+            <a
+              class="bi bi-facebook"
+              href="https://www.facebook.com/profile.php?id=100095082984128"
+            ></a>
+            <a
+              class="bi bi-linkedin"
+              href="https://www.linkedin.com/in/rodevs/"
+            ></a>
+          </div>
+          <div>
+            <p class="footerTxt">&copy; 2024. All Rights Reserved</p>
+          </div>
+        </div>
       </center>
     </footer>
 
