@@ -75,7 +75,7 @@
 
     <main>
       <center>
-        <section>
+        <section id="profile">
           <table>
             <tbody>
               <tr>
@@ -90,7 +90,9 @@
                   <table>
                     <tbody>
                       <tr>
-                        <td><h1 id="title">Rod Hanciles</h1></td>
+                        <td class="heading">
+                          <h1><b>ROD HANCILES</b></h1>
+                        </td>
                         <td>
                           <h6 class="bi bi-telephone">
                             &nbsp; +44 07944 555 666
@@ -101,7 +103,9 @@
                         </td>
                       </tr>
                       <tr>
-                        <td><h3 id="subTitle">Curriculum Vitae</h3></td>
+                        <td class="heading">
+                          <h3 id="subHeading">Curriculum Vitae</h3>
+                        </td>
                         <td>
                           <h6 class="bi bi-geo-alt">
                             &nbsp; 8 Fredrick Street<br />&nbsp; &nbsp; &nbsp;
@@ -118,24 +122,37 @@
         </section>
       </center>
       <!-- For some strange reason VS Code flags up styling from within the brackets of elements. Now sure why, but it didn't work from within the head element -->
-      <section>
-        <h2>Bio</h2>
+      <section class="lightSection">
+        <h2 class="title" id="bio"><em>Bio</em></h2>
         <hr />
         <p>
           Right from a very young age I have had a passion for gadgets and
           technology. So, a career in IT was an irresistible choice when the
-          opportunity presented itself. With an eye for detail, a mind highly
-          technical, full of curiosity; and a forte for problem-solving. The key
-          ingredients necessary for anyone aspiring to work in this field were
-          already innate in my case. This made it inevitable that I interacted
-          with people daily, and it instilled in me that natural drive to help,
-          solve their problems and put a smile on their faces. So, whether it's
-          Web Development, setting up a network Infrastructure, or fixing a PC,
-          the pleasure to satisfy the client, is always mine.
+          opportunity presented itself.
+          <em
+            >With an eye for detail, a mind highly technical, full of curiosity;
+            and a forte for problem-solving.</em
+          >
+          The key ingredients necessary for anyone aspiring to work in this
+          field were already innate in my case. This made it inevitable that I
+          interacted with people daily, and it instilled in me that natural
+          drive to help, solve their problems and put a smile on their faces.
+          So, whether it's Web Development, setting up a network Infrastructure,
+          or fixing a PC, the pleasure to satisfy the client, is always mine.
         </p>
       </section>
-      <section>
-        <h2 id="ski">Skills</h2>
+      <section class="darkSection">
+        <h2 class="title" id="edu"><em>Education</em></h2>
+        <hr />
+        <ul>
+          <li>Diploma in Computer Electronics - City and Guilds</li>
+          <li>Network+ - CompTIA</li>
+          <li>CCNA - Cisco</li>
+          <li>MCSE Module - Microsoft</li>
+        </ul>
+      </section>
+      <section class="lightSection">
+        <h2 class="title" id="ski"><em>Skills</em></h2>
         <hr />
         <p>
           Strangely, though it may seem, IT was not on my radar growing up. When
@@ -156,18 +173,8 @@
           <li>Data Recovery</li>
         </ol>
       </section>
-      <section>
-        <h2 id="edu">Eduction</h2>
-        <hr />
-        <ul>
-          <li>Diploma in Computer Electronics - City and Guilds</li>
-          <li>Network+ - CompTIA</li>
-          <li>CCNA - Cisco</li>
-          <li>MCSE Module - Microsoft</li>
-        </ul>
-      </section>
-      <section>
-        <h2 id="exp">Experience</h2>
+      <section class="darkSection">
+        <h2 class="title" id="exp"><em>Experience</em></h2>
         <hr />
         <p>
           Information Technology has been a significant part of my professional
